@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+marquee{
+    background-color: #ed484c;
+
+}
+
+
+header{
+    background-color: #4c4c4c;
+   
+    display: flex;
+    color: #aeaeae;
+    justify-content: space-between;
+    margin-top: 3px;
+
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+nav li{
+    list-style-type: none;
+    padding: 3px;
+    margin-top: 0px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+}
+
+   
+
+ header > div{
+        display: flex;
+        margin-left: 15px;
+        margin-top: 10px;
+       
+
+ }   
+
+#circle{
+    background-image: url(images/floral.png);
+    background-color: #f18d97;
+    background-size: cover;
+    
+    text-align: center;
+  
+    position: cover;
+}
+#circle > h1{
+    margin-top: 0px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+#circle > p{
+    border-bottom: 1px solid #b0676e;
+    border-top: 1px solid #b0676e;
+    padding: 15px;
+}
+#circle > button{
+    background-color: #160d0e;
+    color: #dc818c;
+    border: none;
+    padding: 11px 45px;
+    margin-bottom: 19px;
+    margin-top: 0px;
+}
+#services > h2 {
+   display: block;
+   text-align: center;
+}
+
+    
+   
+   
+   
+   
+
+#services{
+    background-image: url(images/floral.png);
+   
+    background-size: cover;
+    background-color: #efece7;
+    display: flex;
+    justify-content: center;
+}
+.fa-html5,.fa-css3-alt,.fa-js{
+    font-size: 49px;
+    display: flex;
+     justify-content: center;
+ }   
+ figcaption > h3{
+    font-size: 9px;
+    text-align: center;
+ }
+ #portfolio{
+    
+    background-image: url(images/floral.png);
+    background-color: #ddceb4;
+    background-size: cover;
+    text-align: center;
+ }
+   
+   
+   
+ #portfolio > h2{
+     display: block;
+     text-align: center;
+     margin-top: 0px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+#portfolio > p{
+    text-align: center;
+    border-bottom: 1px solid #a59a87;
+    border-top: 1px solid #a59a87; 
+    padding: 15px;
+}
+#container{
+    display: grid;
+    grid-gap: 25px 30px;
+    grid-template-columns: auto auto auto;
+    
+    padding: 10px;
+    
+}
+.image{
+    padding: 10px;
+}   
+    
+img{
+    border-radius: 7px;
+}  
+   
+ #contact{
+    background-image: url(images/floral.png);
+    background-color:#afc7c6;
+    background-size: cover;
+   
+    text-align: center;
+    position: cover;
+ }  
+ #contact > h2{
+    margin-top: 0px;
+    padding-top: 20px;
+    color: #192531;
+    
+ }
+#contact > button{
+     margin: 10px;
+     font-size: 30px;
+}
+
+.twit, .play, .facebook{
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #afc7c6;
+    border: 1px solid #7b8b8a;
+    color: #212121;
+}       
+ 
+footer{
+    text-align: center;
+    background-color: #212121;
+    color: white;
+} 
+.fa-heart:hover{
+    color: red;
+}
+   
+
+
+   
+
+    
+
+       
+    
+    
+
+
+
