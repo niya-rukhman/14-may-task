@@ -9,8 +9,7 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="media.css" media="(max-width:300px)">
-     <link rel="stylesheet" href="screen.css" media="(max-width:600px)"> -->
+
 </head>
 
 <body>
@@ -37,52 +36,75 @@
         <sectiion id="services">
             <h2>Our Services</h2>
 
+            <div class="language">
+                <figure>
+                    <i class="fab fa-html5"></i>
 
-            <figure>
-                <i class="fab fa-html5"></i>
+                    <figcaption>
+                        <h3><strong>HTML</strong></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, impedit excepturi
+                            veritatis
+                            id voluptates possimus tenetur expedita, commodi maxime recusandae culpa totam mollitia
+                            veniam
+                            voluptatem cum reiciendis perferendis eveniet quidem?</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <i class="fab fa-css3-alt"></i>
 
-                <figcaption>
-                    <h3><strong>HTML</strong></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, impedit excepturi veritatis
-                        id voluptates possimus tenetur expedita, commodi maxime recusandae culpa totam mollitia veniam
-                        voluptatem cum reiciendis perferendis eveniet quidem?</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <i class="fab fa-css3-alt"></i>
+                    <figcaption>
+                        <h3><strong>CSS</strong></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eius quae ipsum ipsam
+                            perferendis
+                            explicabo aliquid hic voluptates accusantium nam? Officia, labore ab mollitia maxime
+                            incidunt
+                            necessitatibus soluta in quis?</p>
 
-                <figcaption>
-                    <h3><strong>CSS</strong></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eius quae ipsum ipsam perferendis
-                        explicabo aliquid hic voluptates accusantium nam? Officia, labore ab mollitia maxime incidunt
-                        necessitatibus soluta in quis?</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <i class="fab fa-js"></i>
 
-                </figcaption>
-            </figure>
-            <figure>
-                <i class="fab fa-js"></i>
+                    <figcaption>
 
-                <figcaption>
-
-                    <h3><strong>JS</strong></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sit, itaque voluptates earum
-                        maiores laboriosam temporibus non aperiam sapiente quidem suscipit soluta voluptatibus quibusdam
-                        vero quasi ullam? Quam, maxime ullam!</p>
-                </figcaption>
-            </figure>
-
+                        <h3><strong>JS</strong></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sit, itaque voluptates
+                            earum
+                            maiores laboriosam temporibus non aperiam sapiente quidem suscipit soluta voluptatibus
+                            quibusdam
+                            vero quasi ullam? Quam, maxime ullam!</p>
+                    </figcaption>
+                </figure>
+            </div>
         </sectiion>
         <section id="portfolio">
             <h2>Portfolio</h2>
             <p>Our students have been working really hard!Here are some of their projects</p>
-            <div id="container">
-                <div class="fig">
-                    <div class="img">
-                        <img src="images/projects/p-1.png" alt="flowers" height="200" width="300">
+            <div id="portfolioimages">
+                <figure class="ptimages">
+                    <img src="images/projects/p-1.png" alt="flowers" height="200" width="200">
 
-                    </div>
-                    <div class="content">
-                        <h3>Bata</h3>
+
+                    <figcaption class="content">
+                        <div class="bata">
+                            <h3>Bata</h3>
+                        </div>
+                        <div class="icon">
+
+                            <i class="far fa-eye"></i>
+                            <i class="far fa-thumbs-up"></i>
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </figcaption>
+                </figure>
+
+                <figure class="ptimages">
+                    <img src="images/projects/p-2.png" alt="heart" height="200" width="200">
+
+                    <figcaption class="content">
+                        <div class="bata">
+                            <h3>Bata</h3>
+                        </div>
                         <div class="icon">
 
                             <i class="far fa-eye"></i>
@@ -90,18 +112,33 @@
                             <i class="far fa-heart"></i>
 
                         </div>
-                    </div>
+                    </figcaption>
+                </figure>
 
-                </div>
+                <figure class="ptimages">
+                    <img src="images/projects/p-3.png" alt="bags" height="200" width="200">
+
+                    <figcaption class="content">
+                        <div class="bata">
+                            <h3>Bata</h3>
+                        </div>
+                        <div class="icon">
+
+                            <i class="far fa-eye"></i>
+                            <i class="far fa-thumbs-up"></i>
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </figcaption>
+                </figure>
 
 
-                <div class="fig">
+                <figure class="ptimages">
+                    <img src="images/projects/p-4.png" alt="shoes" height="200" width="200">
 
-                    <div class="img">
-                        <img src="images/projects/p-2.png" alt="heart" height="200" width="300">
-                    </div>
-                    <div class="content">
-                        <h3>Bata</h3>
+                    <figcaption class="content">
+                        <div class="bata">
+                            <h3>Bata</h3>
+                        </div>
                         <div class="icon">
 
                             <i class="far fa-eye"></i>
@@ -109,30 +146,17 @@
                             <i class="far fa-heart"></i>
 
                         </div>
-                    </div>
+                    </figcaption>
+                </figure>
 
-                </div>
-                <div class="fig">
-                    <div class="img">
-                        <img src="images/projects/p-3.png" alt="bags" height="200" width="300">
-                    </div>
-                    <div class="content">
-                        <h3>Bata</h3>
-                        <div class="icon">
+                <figure class="ptimages">
 
-                            <i class="far fa-eye"></i>
-                            <i class="far fa-thumbs-up"></i>
-                            <i class="far fa-heart"></i>
+                    <img src="images/projects/p-5.png" alt="tv" height="200" width="200">
+                    <figcaption class="content">
+                        <div class="bata">
+
+                            <h3>Bata</h3>
                         </div>
-                    </div>
-
-                </div>
-                <div class="fig">
-                    <div class="img">
-                        <img src="images/projects/p-4.png" alt="shoes" height="200" width="300">
-                    </div>
-                    <div class="content">
-                        <h3>Bata</h3>
                         <div class="icon">
 
                             <i class="far fa-eye"></i>
@@ -140,17 +164,17 @@
                             <i class="far fa-heart"></i>
 
                         </div>
-                    </div>
+                    </figcaption>
+                </figure>
 
-                </div>
-                <div class="fig">
-                    <div class="img">
 
-                        <img src="images/projects/p-5.png" alt="tv" height="200" width="300">
+                <figure class="ptimages">
+                    <img src="images/projects/p-6.png" alt="shoe2" height="200" width="200">
 
-                    </div>
-                    <div class="content">
-                        <h3>Bata</h3>
+                    <figcaption class="content">
+                        <div class="bata">
+                            <h3>Bata</h3>
+                        </div>
                         <div class="icon">
 
                             <i class="far fa-eye"></i>
@@ -158,29 +182,14 @@
                             <i class="far fa-heart"></i>
 
                         </div>
-                    </div>
-
-                </div>
-                <div class="fig">
-                    <div class="img">
-                        <img src="images/projects/p-6.png" alt="shoe2" height="200" width="300">
-                    </div>
-                    <div class="content">
-                        <h3>Bata</h3>
-                        <div class="icon">
-
-                            <i class="far fa-eye"></i>
-                            <i class="far fa-thumbs-up"></i>
-                            <i class="far fa-heart"></i>
-
-                        </div>
-                    </div>
-
-                </div>
-
+                    </figcaption>
+                </figure>
 
             </div>
         </section>
+
+
+
         <section id="contact">
             <h2>Contact Us</h2>
             <button class="twit"><i class="fab fa-twitter"></i></button>
@@ -188,9 +197,9 @@
             <button class="facebook"><i class="fab fa-facebook-square"></i></button>
         </section>
         <footer>
-            <p>Made with
-                <i class="fas fa-heart"></i>
-                by Sarah Ahmed </p>
+            <p>Made with <i class="fas fa-heart"></i> by Sarah Ahmed </p>
+
+
         </footer>
     </main>
 
