@@ -197,7 +197,7 @@ img{
     
     
 }
-.icon > .fa-eye, .fa-thumbs-up, .fa-heart{
+.icon > .eye, .thumb, .heart{
     border:1px solid white;
     border-radius: 50%;
     padding: 10px;
@@ -247,13 +247,26 @@ footer:hover .fa-heart{
 }
 
 
-button:hover{
+ button:hover{
     background-color: #212121;
     color: #fcdea6;
-}
+}                       
 #services i:hover{
     color: #ef3b4c;
 }
+.eye, .thumb, .heart{
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.9);
+    border: 1px solid white;
+    color: white;
+    font-size: 19px;
+}       
+#portfolio button:hover{
+background-color: white;
+color: rgba(0,0,0,0.9);
+}
+
 
 /* @media (min-width: 300px) {
     body{
